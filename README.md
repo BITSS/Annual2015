@@ -14,7 +14,7 @@ In order to work with these files, you're going to need to have several software
 1. [LaTeX](https://latex-project.org/ftp.html) (install--this is a pretty big download. Definitely don't leave this until the day of.)
 2. [OSF](http://osf.io) (no install, just make an account)
 3. [GitHub.com](http://github.com) (make an account)
-4. [Git](https://desktop.github.com/) (install)
+4. [Git](https://desktop.github.com/) (install--this actually links to GitHub Desktop, which includes Git)
 5. [R](https://www.r-project.org/) (install)
 6. [R Studio](https://www.rstudio.com/products/RStudio/) (install)
 7. [Stata] (sorry, we can't help you get a copy of this.)
