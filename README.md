@@ -17,6 +17,6 @@ In order to work with these files, you're going to need to have several software
 4. [Git](https://desktop.github.com/) (install--this actually links to GitHub Desktop, which includes Git)
 5. [R](https://www.r-project.org/) (install)
 6. [R Studio](https://www.rstudio.com/products/RStudio/) (install)
-7. [Stata] (sorry, we can't help you get a copy of this.)
+7. Stata (sorry, we can't help you get a copy of this.)
 
 Slides from all other presenters (Leamer-Rosenthal, SSMART, research papers, etc.) can be found on the linked OSF project page.
