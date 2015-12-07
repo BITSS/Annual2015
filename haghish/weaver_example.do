@@ -1,7 +1,7 @@
 
 
 	
-	weave using weaver_example, replace date contents t("Weaver Package") ///
+	weave using weaver_example, replace date toc title("Weaver Package") ///
 	author("E. F. Haghish")  affiliation("University of Freiburg, Germany") ///
 	address("haghish@imbi.uni-freiburg.de") style("classic") ///
 	///
@@ -14,7 +14,7 @@
 	"information regarding Weaver package visit http://haghish.com/weaver".)
 		
 		
-	mp	
+
 	/*	
 	Introduction to Weaver
 	======================
@@ -50,7 +50,7 @@
 	because it also prowide live preview of your document at any point[#]!
 	
 	*/
-	md 
+	
 	
 	pagebreak  /* go to the next page */
 	
@@ -66,7 +66,7 @@
 	
 	
 	
-	/* ADVANCED STUFF BELOW. WATCHOUT! DON'T LET IT SCARES YOU. */
+	/* ADVANCED STUFF BELOW. WATCHOUT! DON'T LET IT SCARE YOU. */
 	
 	
 	/* Writing dynamic text with knit command & Additional Markup Codes */

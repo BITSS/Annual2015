@@ -1,11 +1,12 @@
-	cd "/Users/haghish/Desktop"
+	cd "/Users/garret/Documents/Research/BITSS/WorkshopSlides/Annual2015/haghish" //change this for your computer
 	cap qui log c
 	set linesize 70
 	set more off
 	qui log using example1, replace  
 	
 	
-			/*
+	sysuse auto, clear	
+	/***
 			Introduction to MarkDoc Stata Package
 			=====================================
 					
@@ -21,11 +22,11 @@
 			EPUB, and several more formats. 
 					
 			This document provides an example about how to use MarkDoc
-			to add text to your logfile. To do so, I will use the Auto2
+			to add text to your logfile. To do so, I will use the Auto
 			dataset which is automatically installed with Stata.
-			*/ 
+			***/ 
 					
-	sysuse auto2, clear	
+	
 	describe
 	list in 1/3
 	regress price mpg
@@ -43,8 +44,8 @@
 	
 	/* Exporting in several formats */
 	markdoc example1, replace 		/* exporting a markdown file */
-	markdoc example1, replace export(html) keep
-	markdoc example1, replace export(odt) keep 
-	markdoc example1, replace export(txt) keep
-	markdoc example1, replace export(epub) keep
-	markdoc example1, replace export(docx) keep
+	*markdoc example1, replace export(html) 
+	*markdoc example1, replace export(odt)  
+	*markdoc example1, replace export(txt) 
+	*markdoc example1, replace export(epub) 
+	markdoc example1, replace export(docx) //This seems to delete the earlier .md version

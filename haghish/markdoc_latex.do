@@ -1,11 +1,11 @@
-	cd "/Users/haghish/Desktop"
+	cd "/Users/garret/Documents/Research/BITSS/WorkshopSlides/Annual2015/haghish" //change this for your computer
 	cap qui log c
 	set linesize 70
 	set more off
 	qui log using example_latex, replace  
 	
 	
-		/*
+		/***
 		
 		\documentclass{article}
 		
@@ -31,7 +31,7 @@
 		\maketitle
 
 		\begin{abstract}
-		\textbf{MarkDod} not only supports writing text using \textbf{Markdown Syntax} 
+		\textbf{MarkDoc} not only supports writing text using \textbf{Markdown Syntax} 
 		but also allows writing and styling text using \textbf{HTML} and \LaTeX{}. 
 		These new features will appeal only to professional users (\textit{Wierdos})
 		and the majority of the users will enjoy writing with Markdown. In this 
@@ -41,8 +41,9 @@
 
 		\section{Introduction}
 		There is a new feature in MarkDoc that allows you to weave your document
-		Using \LaTeX{}. This might only be interesting to some of you. . 
-
+		Using \LaTeX{}. This might only be interesting to some of you. 
+		
+		Hey look, it's math.
 		\begin{equation}
 		\label{simple_equation}
 		\alpha = \sqrt{ \beta }
@@ -52,15 +53,15 @@
 		Below I will add some Stata commands and outputs.
 		
 		\begin{verbatim}
-		*/
+		***/
 		
-	sysuse auto2, clear	
+	sysuse auto, clear	
 	describe
 	list in 1/3
 	hist price
 	graph export graph.png, width(400) replace
 	
-		/*
+		/***
 		
 		\end{verbatim}
 		
@@ -78,11 +79,11 @@
 		Let's end this do-file with a regression analysis.
 
 		\begin{verbatim}
-		*/
+		***/
 		
 	regress price mpg
 	
-		/*
+		/***
 		
 		\end{verbatim}
 		
@@ -96,7 +97,7 @@
 		document. 
 
 		\end{document}
-		*/
+		***/
 					
 	qui log c
 	

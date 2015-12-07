@@ -1,7 +1,8 @@
 
-cd "/Users/haghish/Desktop"
-
+cd "/Users/garret/Documents/Research/BITSS/WorkshopSlides/Annual2015/haghish"
+set more off
 set linesize 70
+cap log close
 qui log using chunks, replace
 
 /* 
@@ -15,7 +16,6 @@ by step. I begin by loading the example data set.
 
 */
 
-cd "/Users/haghish/Desktop"
 sysuse auto, clear
 
 /*

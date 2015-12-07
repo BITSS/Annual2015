@@ -1,11 +1,11 @@
-	cd "/Users/haghish/Desktop"
+	cd "/Users/garret/Documents/Research/BITSS/WorkshopSlides/Annual2015/haghish" //change this for your computer
 	cap qui log c
 	set linesize 70
 	set more off
 	qui log using example_html, replace  
 	
 	
-		/*
+		/***
 		
 		<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
 		"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -29,24 +29,24 @@
 		<h2>Introduction</h2>
 		<p>In addition to Markdown syntax, you may also weave your document 
 		using <strong>HTML</strong> markup language. This allows further 
-		flexibility in styling the document, although reduces the readability 
+		flexibility in styling the document, although it reduces the readability 
 		of human language due to HTML syntax. </p>
-		*/
+		***/
 		
-	sysuse auto2, clear	
+	sysuse auto, clear	
 	describe
 	list in 1/3
 	
-		/*
+		/***
 		
 		<h2>Regression</h2>
 		<p>Let's end this do-file with a regression analysis.</p>
 
-		*/
+		***/
 		
 	regress price mpg
 	
-		/*
+		/***
 		
 		<h2>Conclusion</h2>
 		<p>Writing a document with _HTML_ in __MarkDoc__ is so natural and 
@@ -57,10 +57,10 @@
 		html format or any other document format that recognizes html such as 
 		docm__. </p>
 
-		*/
+		***/
 					
 	qui log c
 	
-	markdoc example_html, replace export(html) keep
+	markdoc example_html, replace export(html) 
 	
-	ketchup example_html, replace export(html) keep
+	*ketchup example_html, replace export(html) 

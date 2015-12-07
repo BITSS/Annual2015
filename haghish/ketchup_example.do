@@ -1,4 +1,4 @@
-	cd "/Users/haghish/Desktop"
+	cd "/Users/garret/Documents/Research/BITSS/WorkshopSlides/Annual2015/haghish"
 	cap qui log c
 	set linesize 80
 	set more off
@@ -18,20 +18,20 @@
 			styling the logfile.  
 					
 			This document provides an example about how to use Ketchup
-			to add text to your logfile. To do so, I will use the Auto2
+			to add text to your logfile. To do so, I will use the Auto
 			dataset which is automatically installed with Stata.
 			*/ 
 					
-	sysuse auto2, clear	
+	sysuse auto, clear	
 	describe
 	list in 1/3
 	regress price mpg
 	
 	hist price, title("Price Histogram") 
 	qui graph export graph2price.png, replace 
-	img graph2price.png, w(230) h(170) 
-	img graph2price.png, w(230) h(170) 
-	img graph2price.png, w(230) h(170)  
+	img graph2price.png, w(230) h(120) 
+	*img graph2price.png, w(230) h(170) 
+	*img graph2price.png, w(230) h(170)  
 					
 	qui log c
 	
