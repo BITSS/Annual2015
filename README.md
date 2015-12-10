@@ -11,7 +11,7 @@ There are three important folders:
 
 In order to work with these files, you're going to need to have several software programs installed. We will be running a demo of them, but it will likely be a lot more useful if you try and follow along on your own.
 
-1. [LaTeX](https://latex-project.org/ftp.html) (install--this is a pretty big download. Definitely don't leave this until the day of.)
+1. [LaTeX](https://latex-project.org/ftp.html) (install--this is a pretty big download. Please don't leave this until the day of.)
 2. [OSF](http://osf.io) (no install, just make an account)
 3. [GitHub.com](http://github.com) (make an account)
 4. [Git](https://desktop.github.com/) (install--this actually links to GitHub Desktop, which includes Git)
